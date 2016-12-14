@@ -10,8 +10,11 @@ public class Sort{
   *Upon completion, the elements of the array will be in increasing order.
   *@param data  the elements to be sorted.
   */
-  public static void selectionSort(int[] data){
-//nested for loop,
+
+
+
+  public static void selection(int[] data){
+      //nested for loop,
       //once to go through all of data, one to go through unsorted
 
       //times you go through the array
@@ -38,6 +41,18 @@ public class Sort{
   
 
   }
+/*
+  public static void insertion(int[] data){
+//length of sorted	
+    int numSort=1;
+    for(int i = 1; i < data.length; i++){
+	int temp=data[VARIABLE!];
+	int num = i-1;
+	while(temp<data[num]){
+	    num--
+	}
+    }
 
+  }*/
 
 }
