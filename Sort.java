@@ -41,18 +41,18 @@ public class Sort{
   
 
   }
-/*
   public static void insertion(int[] data){
 //length of sorted	
-    int numSort=1;
-    for(int i = 1; i < data.length; i++){
-	int temp=data[VARIABLE!];
+      for(int i = 1; i < data.length; i++){
+	int temp=data[i];
 	int num = i-1;
 	while(temp<data[num]){
-	    num--
+	    num--;
 	}
+	for (int j = i - 1; j > num; j--){
+	    data[j+1]=data[j];
+	}
+	data[num]=temp;
     }
-
-  }*/
-
+  }
 }
