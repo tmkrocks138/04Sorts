@@ -55,4 +55,11 @@ public class Sort{
 	data[num]=temp;
     }
   }
+  public static void bubble(int[] data){
+//nested for loop
+//count switch numbers and if switch is 0 at end, end loop early
+
+}
+
+
 }
