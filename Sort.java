@@ -3,7 +3,7 @@ public class Sort{
   /**EDIT THIS METHOD TO MATCH YOUR NAME 
   */
   public static String name(){
-    return "01.Khanna.Tara"; 
+    return "10.Khanna.Tara"; 
   }
 
   /**Selection sort of an int array. 
